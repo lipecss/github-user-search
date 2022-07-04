@@ -1,12 +1,10 @@
 <template>
-  <div id="app">
-    <router-view/>
-  </div>
+  <div></div>
 </template>
 
 <script>
 export default {
-  name: 'App',
+  name: 'Base',
   beforeCreate () {},
   created () {},
   beforeMount () {},
@@ -26,3 +24,6 @@ export default {
   watch: {}
 }
 </script>
+
+<style lang="scss" scoped>
+</style>
